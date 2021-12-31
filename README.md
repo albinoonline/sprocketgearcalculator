@@ -1,2 +1,2 @@
 # sprocketgearcalculator
-add hou many gears wou want, what the first and last gears should be, and your target max for your engine, and the calculater will ficure out the rest
+add how many gears you want, what the first and last gears should be, and your target max for your engine, and the calculator will figure out the rest
