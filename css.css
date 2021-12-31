@@ -1,0 +1,27 @@
+body {
+	font-family: OCR-A, monospace;
+	font-size: 1em;
+	color:#000000;
+	background-color:#dddddd;
+	/*
+	width:80%;
+	margin:0 auto;
+	*/
+}
+#massConverterBttn, #DL{
+	font-family: OCR-A, monospace;
+	font-size:1em;
+}
+#fileinput label, input[type=button] {
+	background-color: #5555ee;
+	padding:.25em;
+	color: white;
+	border-radius: 5px;
+	border: 1px ridge black;
+	height: auto;
+}
+
+#fileinput label:hover, input[type=button]:hover {
+	background-color: #ee5555;
+	color: white;
+}

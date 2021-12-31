@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<!--
+	Author Name: Albino
+-->
+<head>
+	<meta charset="utf-8" />
+	<title>Albino's Sprocket Fuckery</title>
+	<link href="css.css" rel="stylesheet" />
+	<script src='editor.js'></script>
+</head>
+<body>
+	<div id='pagewrapper'>
+		<header>
+			<h1>Albino's Sprocket Fuckery</h1>
+			<a href="https://github.com/albinoonline">Browse on Github</a>
+		</header>
+		<div id="input">
+			
+			<label for="gears">Gears:</label><input id="gears" type="number" step="1" value="6" min="2" max="24"/><br/>
+			<label for="first">First Gear:</label><input id="first" type="number" step="0.01" value="4" min=".1" max="30"/><br/>
+			<label for="top">Top Gear:</label><input id="top" type="number" step="0.01" value=".75" min=".1" max="30"/><br/>
+			<label for="max">Target Max:</label><input id="max" type="number" step="1" value="2400" min="0" max="72000"/><br/>
+			<input type="button" id="go" value="calculate"/>
+		</div><!-- end input -->
+		<div id="output">
+		
+		</div>
+	</div>
+</body>
+</html>
