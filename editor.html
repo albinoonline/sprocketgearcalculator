@@ -15,7 +15,7 @@
 			<h1>Albino's Sprocket Fuckery</h1>
 			<a href="https://github.com/albinoonline/sprocketgearcalculator">Browse on Github</a>
 		</header>
-		<div id="input">
+		<div id="input" class="side">
 			
 			<label for="gears">Gears:</label><input id="gears" type="number" step="1" value="6" min="2" max="24"/><br/>
 			<label for="first">First Gear:</label><input id="first" type="number" step="0.01" value="4" min=".1" max="30"/><br/>
@@ -23,8 +23,12 @@
 			<label for="max">Target Max:</label><input id="max" type="number" step="1" value="2400" min="0" max="72000"/><br/>
 			<input type="button" id="go" value="calculate"/>
 		</div><!-- end input -->
-		<div id="output">
+		<div id="output" class="side">
 		
+		</div>
+		<div class="side">
+		<p>This calculator assumes you know what minimum and maximum gear ratios you want, along with maximum target RPM and the number of gears you want.</p>
+		<p>If you cant get into top gear, reduce maximum rpm, or reduce gears.</p>
 		</div>
 	</div>
 </body>

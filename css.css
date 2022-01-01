@@ -25,9 +25,9 @@ body {
 	background-color: #ee5555;
 	color: white;
 }
-div {
+.side {
 	box-sizing: border-box;
-	width: calc(50% - 20px);
+	width: calc(33% - 20px);
 	display: inline-block;
 	margin: 10px;
 	padding: 5px;
