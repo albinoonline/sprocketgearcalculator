@@ -13,6 +13,7 @@ header {
 	background-color:#eeeeee;
 	border-radius:15px;
 	text-align:center;
+	margin: 10px;
 }
 #massConverterBttn, #DL{
 	font-family: OCR-A, monospace;
@@ -33,7 +34,7 @@ header {
 }
 .side {
 	box-sizing: border-box;
-	width: calc(33% - 20px);
+	width: calc(33% - 15px);
 	display: inline-block;
 	border-radius:15px;
 	margin: 10px;
