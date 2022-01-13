@@ -16,10 +16,14 @@
 			<a href="https://github.com/albinoonline/sprocketgearcalculator">Browse on Github</a>
 		</header>
 		<div id="input" class="side">
-			<label for="gears">Gears:</label><input id="gears" type="number" step="1" value="6" min="2" max="24"/><br/>
+			<h4>Forward Gears</h4>
+			<label for="gears">Gear Count:</label><input id="gears" type="number" step="1" value="6" min="2" max="24"/><br/>
 			<label for="first">First Gear:</label><input id="first" type="number" step="0.01" value="4" min=".1" max="30"/><br/>
 			<label for="top">Top Gear:</label><input id="top" type="number" step="0.01" value=".75" min=".1" max="30"/><br/>
 			<label for="max">Target Max:</label><input id="max" type="number" step="1" value="2400" min="0" max="72000"/><br/>
+			<h4>Reverse Gears</h4>
+			<label for="reverseGears">Gear Count:</label><input id="reverseGears" type="number" step="1" value="0" min="0" max="24"/><br/>
+			<label for="reverseFirst">First Gear:</label><input id="reverseFirst" type="number" step="0.01" value="4" min=".1" max="30"/><br/>
 			<input type="button" id="go" value="calculate"/>
 		</div><!-- end input -->
 		<div id="output" class="side">
@@ -28,6 +32,7 @@
 		<div class="side">
 		<p>This calculator assumes you know what minimum and maximum gear ratios you want, along with maximum target RPM and the number of gears you want.</p>
 		<p>If you cant get into top gear, reduce maximum rpm, or reduce gears.</p>
+		<p>Reverse gears will generate with the same ratio as the forward ones, use if you want different reverse gears, completely separate from forward ones.</p>
 		</div>
 	</div>
 </body>

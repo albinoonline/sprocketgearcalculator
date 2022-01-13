@@ -6,6 +6,8 @@ window.onload = function() {
 	const top = document.getElementById('top');
 	const max = document.getElementById('max');
 	const go = document.getElementById('go');
+	const reverseGears = document.getElementById('reverseGears');
+	const reverseFirst = document.getElementById('reverseFirst');
 	//get output
 	const output = document.getElementById('output');
 	
@@ -42,8 +44,21 @@ window.onload = function() {
 			//first*(b)^2
 			return Math.round(first.value*Math.pow(b,x) * 100) / 100;
 		}
+		output.innerHTML+="<h4>Forward Gears</h4>";
 		for(let i = 0; i < gears.value; i++){
-			output.innerHTML+=`<p>Gear ${i+1}: ${gear(i)}</p>`;
+			output.innerHTML+=`<p>G${i+1}: ${gear(i)}</p>`;
+		}
+		//reverse gears
+		if (reverseGears.value ==0){
+			return;
+		}
+		output.innerHTML+="<h4>Reverse Gears</h4>";
+		function reverseGear(x){
+			//first*(b)^2
+			return Math.round(reverseFirst.value*Math.pow(b,x) * 100) / 100;
+		}
+		for(let i = 0; i < reverseGears.value; i++){
+			output.innerHTML+=`<p>R${i+1}: ${reverseGear(i)}</p>`;
 		}
 	});
 }
