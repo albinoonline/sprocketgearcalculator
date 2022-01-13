@@ -1,12 +1,18 @@
 body {
 	font-family: OCR-A, monospace;
 	font-size: 1em;
-	color:#000000;
-	background-color:#dddddd;
+	color:#eeeeee;
+	background-color:#555555;
 	/*
 	width:80%;
 	margin:0 auto;
 	*/
+}
+header {
+	color:#555555;
+	background-color:#eeeeee;
+	border-radius:15px;
+	text-align:center;
 }
 #massConverterBttn, #DL{
 	font-family: OCR-A, monospace;
@@ -29,7 +35,10 @@ body {
 	box-sizing: border-box;
 	width: calc(33% - 20px);
 	display: inline-block;
+	border-radius:15px;
 	margin: 10px;
 	padding: 5px;
 	float: left;
+	background-color:#eeeeee;
+	color:#555555;
 }
